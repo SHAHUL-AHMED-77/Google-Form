@@ -1,20 +1,4 @@
-# Google Form
 
-This repository contains a simple, responsive Google Form built with HTML and CSS. The form collects user information including name, email, age, status, source of referral, known programming languages and frameworks, and additional comments.
-
-To ensure your images show correctly in the GitHub preview, double-check the following steps:
-
-1. **Verify File Paths:** Ensure the paths to your images are correct relative to the `README.md` file. For example, if your images are in a folder named `images` in the root of your repository, the paths should be `images/one.png` and `images/two.png`.
-
-2. **File Names and Extensions:** Ensure the image files are named exactly as referenced, including the correct file extension (e.g., `.png`, `.jpg`).
-
-3. **Commit Images:** Ensure the image files are committed and pushed to the GitHub repository along with the `README.md` file.
-
-4. **Check Case Sensitivity:** File names are case-sensitive, so ensure the case matches exactly.
-
-Here is your updated `README.md` with these considerations:
-
-```markdown
 # Google Form
 
 This repository contains a simple, responsive Google Form built with HTML and CSS. The form collects user information including name, email, age, status, source of referral, known programming languages and frameworks, and additional comments.
