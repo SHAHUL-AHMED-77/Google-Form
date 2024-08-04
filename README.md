@@ -4,9 +4,9 @@ This repository contains a simple, responsive Google Form built with HTML and CS
 
 ## Preview
 
-![Form Preview](result images/one.png)
+![Form Preview](images/one.png)
 
-![Form Preview](result images/two.png)
+![Form Preview](images/two.png)
 
 ## Table of Contents
 
