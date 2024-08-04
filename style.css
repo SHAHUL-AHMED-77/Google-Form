@@ -1,11 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap');
+
 body {
-font-family: Arial, sans-serif;
+font-family: "Lato", sans-serif;
 margin: 0;
 padding: 0;
-}
-
-header {
-background: url("images/bg.jpg") no-repeat center;
+background: url("bg.jpg") no-repeat center;
 background-size: cover;
 height: 100%;
 width: 100%;
@@ -13,22 +13,27 @@ width: 100%;
 
 h2 {
 text-align: center;
-color: #9370db;
+color: #fffafa;
 font-size: 50px;
-text-shadow: #663399 3px 3px;
+text-shadow: #000000 5px 3px;
 }
 
 form {
-max-width: 600px;
+max-width: 550px;
 margin: 0 auto;
-padding: 20px;
-background-color: #663399;
+padding: 30px 20px;
+background-color: transparent;
 border-radius: 8px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border: 1px solid rgb(0, 0, 0) ;
+box-shadow: 5px 10px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 label {
 font-weight: bold;
+color: rgb(255, 255, 255);
+margin: 10px 0;
+font-size: 20px;
+text-shadow: 2px 2px black;
 }
 
 input[type="text"],
@@ -36,20 +41,28 @@ input[type="email"],
 input[type="number"],
 textarea {
 width: 100%;
-padding: 8px;
-margin-bottom: 10px;
-border: 1px solid #ccc;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #000000;
 border-radius: 4px;
 box-sizing: border-box;
+background-color: #E0B0FF;
 }
 
+input::placeholder{
+    color: #000000;
+}
+.sel{
+    margin: 10px 0;
+}
 select {
 width: 100%;
 padding: 8px;
-margin-bottom: 10px;
 border: 1px solid #ccc;
 border-radius: 4px;
 box-sizing: border-box;
+background-color: #E0B0FF;
+margin: 10px 0;
 }
 
 input[type="radio"],
@@ -60,17 +73,55 @@ margin-right:7px;
 
 input[type="submit"] {
 background-color: #000000;
-color: white;
+color: rgb(0, 0, 0);
 padding: 10px 20px;
 border: none;
 border-radius: 4px;
 cursor: pointer;
+text-align: center;
+background-color: #FBAED2;
+font-size: 16px;
 }
 
 input[type="submit"]:hover {
-background-color: #ff0000;
+background-color: #5e1271;
+    color: #ffffff;
 }
 
 input[type="submit"]:focus {
 outline: none;
+}
+.hear{
+    margin: 10px 0;
+}
+.hear label{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.lang{
+    margin: 10px 0;
+}
+.lang label{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sub {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+@media (max-width:770px){
+    form {
+        max-width: 60%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    label{
+        font-size: 16px;
+    }
+    
 }

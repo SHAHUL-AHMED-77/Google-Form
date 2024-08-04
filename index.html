@@ -18,7 +18,7 @@
 
     <label for="age">Age:</label><br>
     <input type="number" id="age" placeholder="Enter your Age"><br>
-
+    <div class="sel">
     <label for="status">Which option best describes you?</label><br>
     <select id="status" name="status">
       <option value="student">Student</option>
@@ -26,7 +26,8 @@
       <option value="parent">Parent</option>
       <option value="other">Other</option>
     </select><br>
-
+    </div>
+    <div class="hear">
     <label for="heard">How did you hear about us?</label><br>
     <input type="radio" id="advertisements" name="heard" value="advertisements">
     <label for="advertisements">Advertisements</label><br>
@@ -34,7 +35,8 @@
     <label for="friends">Friends</label><br>
     <input type="radio" id="poster" name="heard" value="poster">
     <label for="poster">Poster</label><br>
-
+    </div>
+    <div class="lang">
     <label for="languages">Languages and Frameworks Known (Check all that apply):</label><br>
     <input type="checkbox" id="html" name="languages" value="html">
     <label for="html">HTML</label><br>
@@ -50,10 +52,12 @@
     <label for="react">React</label><br>
     <input type="checkbox" id="angular" name="languages" value="angular">
     <label for="angular">Angular</label><br>
-
-    <label for="comments">Suggestions or Comments:</label><br>
+    </div>
+    <label for="comments">Comments:</label><br>
     <textarea id="comments" name="comments" rows="7" cols="50"></textarea><br>
+    <div class="sub">
     <input type="submit" value="Submit">
+    </div>
   </form>
 </header>
 </body>
