@@ -23,7 +23,7 @@ This repository contains a simple, responsive Google Form built with HTML and CS
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/SHAHUL-AHMED-77/Google-Form.git
+git clone https://github.com/SyedShahulAhmed/Google-Form.git
 cd Google-Form
 ```
 
